@@ -1,0 +1,20 @@
+{
+  "name": "plzkarma",
+  "version": "1.0.0",
+  "description": "latest attempt to get unit testing to be a thing again",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coffee-preprocessor": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^1.0.0",
+    "karma-jasmine-runner-reporter": "^0.2.0"
+  }
+}
